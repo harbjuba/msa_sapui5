@@ -1,0 +1,7 @@
+{
+	"welcomeFile": "webapp/index.html",
+	"authenticationMethod": "route",
+	"routes": [
+	
+		]
+}

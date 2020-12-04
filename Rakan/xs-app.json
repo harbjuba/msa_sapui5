@@ -1,0 +1,8 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "route",
+	"routes": [{
+		"source": "/sap/opu/odata/sap/YRH_PRODUKT1_CDS_CDS",
+		"destination": ""
+	}]
+}

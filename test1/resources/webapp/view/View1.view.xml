@@ -1,0 +1,67 @@
+<mvc:View controllerName="rh.test1.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<!--Table items="{Model>/YRH_PRODUKT1_CDS}">
+				<columns>
+					<Column>
+						<Label text="pruduktid"/>
+					</Column>
+					<Column>
+						<Label text="name"/>
+					</Column>
+					<Column>
+						<Label text="status"/>
+					</Column>
+					<Column>
+						<Label text="pice"/>
+					</Column>
+					<Column>
+						<Label text="currency"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<Text text="{Model>pruduktid"/>
+						<Text text="{Model>name}"/>
+						<Text text="{Model>status}"/>
+						<Text text="{Model>pice}"/>
+						<Text text="{Model>currency}"/>
+					</ColumnListItem>
+				</items>
+			</Table-->
+			<Table items="{employees>/Employees}">
+				<columns>
+					<Column>
+						<Label text="EmployeeID"/>
+					</Column>
+					<Column>
+						<Label text="LastName"/>
+					</Column>
+					<Column>
+						<Label text="FirstName"/>
+					</Column>
+					<Column>
+						<Label text="City"/>
+					</Column>
+					<Column>
+						<Label text="PostalCode"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<Text text="{employees>EmployeeID}"/>
+						<Text text="{employees>LastName}"/>
+						<Text text="{employees>FirstName}"/>
+						<Text text="{employees>City}"/>
+						<Text text="{employees>PostalCode}"/>
+					</ColumnListItem>
+				</items>
+			</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

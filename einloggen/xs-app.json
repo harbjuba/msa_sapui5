@@ -1,0 +1,5 @@
+{
+  "welcomeFile": "index.html",
+  "authenticationMethod": "none",
+  "routes": [{ "source": "https://saps4d02.msa.local:8001/sap/opu/odata/sap/YRH_EINLOGGEN_SRV/", "destination": "" }]
+}

@@ -1,0 +1,19 @@
+ID: MasterDetaliApp
+_schema-version: '2.1'
+version: 3.0.0
+modules:
+  - name: Rakan_MSA_SAPUI5
+    type: html5
+    path: Rakan_MSA_SAPUI5
+    requires:
+      - name: p
+        properties:
+          name: rakan_ap
+  - name: einloggen
+    type: html5
+    path: einloggen
+    requires:
+      - name: p
+resources:
+  - name: p
+    type: com.sap.xs.uaa-space

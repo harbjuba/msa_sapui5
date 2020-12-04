@@ -1,0 +1,64 @@
+<mvc:View controllerName="sapui5.Rakan_MSA_SAPUI5.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Table items="{employees3>/YRHEINLOGGEN_TSet}">
+						<columns>
+							<Column>
+								<Label text="id"/>
+							</Column>
+							<Column>
+								<Label text="name"/>
+							</Column>
+							<Column>
+								<Label text="nachname"/>
+							</Column>
+							<Column>
+								<Label text="email"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<Text text="{employees3>Id"/>
+								<Text text="{employees3>Name}"/>
+								<Text text="{employees3>Nachname}"/>
+								<Text text="{employees3>Email}"/>
+							</ColumnListItem>
+						</items>
+					</Table>
+					<!--Table>
+				<Table items="{employees>/Employees}">
+				<columns>
+					<Column>
+						<Label text="EmployeeID"/>
+					</Column>
+					<Column>
+						<Label text="LastName"/>
+					</Column>
+					<Column>
+						<Label text="FirstName"/>
+					</Column>
+					<Column>
+						<Label text="City"/>
+					</Column>
+					<Column>
+						<Label text="PostalCode"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<Text text="{employees>EmployeeID}"/>
+						<Text text="{employees>LastName}"/>
+						<Text text="{employees>FirstName}"/>
+						<Text text="{employees>City}"/>
+						<Text text="{employees>PostalCode}"/>
+					</ColumnListItem>
+				</items>
+			</Table-->
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
